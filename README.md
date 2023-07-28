@@ -7,7 +7,7 @@
 3. [Installation](#installation)
 4. [Usage](#usage)
 5. [Database Setup](#database-setup)
-6. [Support](#support)
+
 
 # Introduction
 The purpose of the Tax Management System project is to simplify tax calculations and raise awareness among salaried individuals about potential tax-saving opportunities. By leveraging Java's AWT for the frontend and Java for the backend, this standalone application ensures a user-friendly experience for taxpayers.
@@ -59,4 +59,22 @@ For now, Username is PRANAV, Password is 1234.
 Now, you are free to explore this project.
 
 # Database Setup
-
+1. Install MySQL database on your system. You can download it from MySQL Downloads.
+2. Create a new database named "<b>EZTAX</b>" using the following SQL command:
+CREATE DATABASE EZTAX;
+3. Create a table called <b>user</b> which contains the information of users using the following SQL command:<br>
+   CREATE TABLE user (
+  name VARCHAR(255),
+  panno VARCHAR(255),
+  phoneno VARCHAR(255),
+  income DECIMAL(10, 2),
+  age INT,
+  gender VARCHAR(10),
+  HRA DECIMAL(10, 2),
+  STANDARDDEDUCTIONS DECIMAL(10, 2),
+  INTERESTONLOAN DECIMAL(10, 2),
+  MEDICALINSURANCE DECIMAL(10, 2),
+  DEDUCTIONONINVESTMENT DECIMAL(10, 2),
+  NETTAX DECIMAL(10, 2)
+);<br>
+4. Last but not the least, replace the password with your MySQL password(which you set in while downloading MySQL) in  ./Project/ConnectionProvider.java .
