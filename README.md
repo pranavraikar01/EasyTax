@@ -46,3 +46,17 @@ Note: Make sure to have the MySQL server running before running the application 
 
 Start Managing Your Taxes:
 The Tax Management System application should now be up and running in NetBeans IDE. You can begin using it to manage your taxes efficiently.🎉🎉
+
+
+# Usage
+1. <b>Open the project.</b>
+2. <b>Setup The MySQL database: </b>
+Before running the application, ensure you have set up the required MySQL database as mentioned in the [Database Setup](#database-setup) section of this README.
+3. <b>Login:</b>
+Remember, This is a standalone project. Therefore, the login and password can be provided in the Java code once.
+For now, Username is PRANAV, Password is 1234.
+4. <b>Explore:</b>
+Now, you are free to explore this project.
+
+# Database Setup
+
