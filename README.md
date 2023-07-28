@@ -27,11 +27,12 @@ If you haven't already installed NetBeans IDE, you can download it from the offi
 2. <b>Clone the Repository:</b>
 Open a terminal or command prompt and navigate to the directory where you want to store the project. Then, use the following command to clone the repository:
 bash
-Copy code
-git clone <repository-url>
+Copy code<br>
+git clone https://github.com/pranavraikar01/EasyTaxD10AFinal.git
 
 3. <b>Import the Project in NetBeans:</b>
-Open NetBeans IDE and go to File > Open Project.... Navigate to the directory where you cloned the repository, select the project folder (TaxManagementSystem), and click "Open Project."
+Open NetBeans IDE and go to File > Open Project.... Navigate to the directory where you cloned the repository, select the project folder (EasyTaxD10AFinal
+), and click "Open Project."
 
 4. <b>Set Up MySQL Database:</b>
 Ensure you have MySQL installed and set up the required database as mentioned in the Database Setup section of this README.
@@ -44,4 +45,4 @@ Build the project in NetBeans by clicking on the "Build Project" button (hammer 
 Note: Make sure to have the MySQL server running before running the application to avoid any connection issues.
 
 Start Managing Your Taxes:
-The Tax Management System application should now be up and running in NetBeans IDE. You can begin using it to manage your taxes efficiently.
+The Tax Management System application should now be up and running in NetBeans IDE. You can begin using it to manage your taxes efficiently.🎉🎉
