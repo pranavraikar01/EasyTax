@@ -31,8 +31,7 @@ Copy code<br>
 git clone https://github.com/pranavraikar01/EasyTaxD10AFinal.git
 
 3. <b>Import the Project in NetBeans:</b>
-Open NetBeans IDE and go to File > Open Project.... Navigate to the directory where you cloned the repository, select the project folder (EasyTaxD10AFinal
-), and click "Open Project."
+Open NetBeans IDE and go to File > Open Project.... Navigate to the directory where you cloned the repository, select the project folder (EasyTax), and click "Open Project."
 
 4. <b>Set Up MySQL Database:</b>
 Ensure you have MySQL installed and set up the required database as mentioned in the Database Setup section of this README.
